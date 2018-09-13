@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D29A22BBC8FAB1F25105C4A /* libPods-高仿马蹄运动UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CA3CDFF2FD3DC6B6E4BDCE /* libPods-高仿马蹄运动UITests.a */; };
+		A6BC9FF469374BA3619CD1CD /* libPods-高仿马蹄运动.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BCB74231BA2B829B2851984 /* libPods-高仿马蹄运动.a */; };
 		B0ED60C8214A8A0600507AEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED60C7214A8A0600507AEC /* AppDelegate.m */; };
 		B0ED60CB214A8A0600507AEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED60CA214A8A0600507AEC /* ViewController.m */; };
 		B0ED60CE214A8A0600507AEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0ED60CC214A8A0600507AEC /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		B0ED60D6214A8A0600507AEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED60D5214A8A0600507AEC /* main.m */; };
 		B0ED60E0214A8A0600507AEC /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED60DF214A8A0600507AEC /* ______Tests.m */; };
 		B0ED60EB214A8A0600507AEC /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED60EA214A8A0600507AEC /* ______UITests.m */; };
+		BF275FC8A64960929FD972FA /* libPods-高仿马蹄运动Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F81CCD8D9C6411CC0D9B3B18 /* libPods-高仿马蹄运动Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		390D947EC74433F3C7C32E2E /* Pods-高仿马蹄运动UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高仿马蹄运动UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-高仿马蹄运动UITests/Pods-高仿马蹄运动UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4119E1E7EE1396648AAE09F9 /* Pods-高仿马蹄运动UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高仿马蹄运动UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-高仿马蹄运动UITests/Pods-高仿马蹄运动UITests.release.xcconfig"; sourceTree = "<group>"; };
+		88CA3CDFF2FD3DC6B6E4BDCE /* libPods-高仿马蹄运动UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-高仿马蹄运动UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BCB74231BA2B829B2851984 /* libPods-高仿马蹄运动.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-高仿马蹄运动.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		961018E4B73907B3E83E8585 /* Pods-高仿马蹄运动.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高仿马蹄运动.debug.xcconfig"; path = "Pods/Target Support Files/Pods-高仿马蹄运动/Pods-高仿马蹄运动.debug.xcconfig"; sourceTree = "<group>"; };
 		B0ED60C3214A8A0600507AEC /* 高仿马蹄运动.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "高仿马蹄运动.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0ED60C6214A8A0600507AEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0ED60C7214A8A0600507AEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,11 +54,15 @@
 		B0ED60D4214A8A0600507AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0ED60D5214A8A0600507AEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0ED60DB214A8A0600507AEC /* 高仿马蹄运动Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "高仿马蹄运动Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0ED60DF214A8A0600507AEC /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		B0ED60DF214A8A0600507AEC /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ______Tests.m; sourceTree = "<group>"; };
 		B0ED60E1214A8A0600507AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0ED60E6214A8A0600507AEC /* 高仿马蹄运动UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "高仿马蹄运动UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0ED60EA214A8A0600507AEC /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		B0ED60EA214A8A0600507AEC /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ______UITests.m; sourceTree = "<group>"; };
 		B0ED60EC214A8A0600507AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D049D5EC5FED41CCEB169A /* Pods-高仿马蹄运动Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高仿马蹄运动Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-高仿马蹄运动Tests/Pods-高仿马蹄运动Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E311A32A32C9D1AEAA0A18B6 /* Pods-高仿马蹄运动Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高仿马蹄运动Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-高仿马蹄运动Tests/Pods-高仿马蹄运动Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F68C52F5A95FBC7A5552540B /* Pods-高仿马蹄运动.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高仿马蹄运动.release.xcconfig"; path = "Pods/Target Support Files/Pods-高仿马蹄运动/Pods-高仿马蹄运动.release.xcconfig"; sourceTree = "<group>"; };
+		F81CCD8D9C6411CC0D9B3B18 /* libPods-高仿马蹄运动Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-高仿马蹄运动Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6BC9FF469374BA3619CD1CD /* libPods-高仿马蹄运动.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF275FC8A64960929FD972FA /* libPods-高仿马蹄运动Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D29A22BBC8FAB1F25105C4A /* libPods-高仿马蹄运动UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39525E782AD4F79B29923BB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BCB74231BA2B829B2851984 /* libPods-高仿马蹄运动.a */,
+				F81CCD8D9C6411CC0D9B3B18 /* libPods-高仿马蹄运动Tests.a */,
+				88CA3CDFF2FD3DC6B6E4BDCE /* libPods-高仿马蹄运动UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7965D742467B3446B24ACFA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				961018E4B73907B3E83E8585 /* Pods-高仿马蹄运动.debug.xcconfig */,
+				F68C52F5A95FBC7A5552540B /* Pods-高仿马蹄运动.release.xcconfig */,
+				B3D049D5EC5FED41CCEB169A /* Pods-高仿马蹄运动Tests.debug.xcconfig */,
+				E311A32A32C9D1AEAA0A18B6 /* Pods-高仿马蹄运动Tests.release.xcconfig */,
+				390D947EC74433F3C7C32E2E /* Pods-高仿马蹄运动UITests.debug.xcconfig */,
+				4119E1E7EE1396648AAE09F9 /* Pods-高仿马蹄运动UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B0ED60BA214A8A0600507AEC = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				B0ED60DE214A8A0600507AEC /* 高仿马蹄运动Tests */,
 				B0ED60E9214A8A0600507AEC /* 高仿马蹄运动UITests */,
 				B0ED60C4214A8A0600507AEC /* Products */,
+				7965D742467B3446B24ACFA0 /* Pods */,
+				39525E782AD4F79B29923BB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0ED60EF214A8A0600507AEC /* Build configuration list for PBXNativeTarget "高仿马蹄运动" */;
 			buildPhases = (
+				BAF7A0BA77E2860B8EF2BC3E /* [CP] Check Pods Manifest.lock */,
 				B0ED60BF214A8A0600507AEC /* Sources */,
 				B0ED60C0214A8A0600507AEC /* Frameworks */,
 				B0ED60C1214A8A0600507AEC /* Resources */,
+				970A01DF8B98372B433BAC4E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0ED60F2214A8A0600507AEC /* Build configuration list for PBXNativeTarget "高仿马蹄运动Tests" */;
 			buildPhases = (
+				7DA891A0D8E261EC47BAAD8A /* [CP] Check Pods Manifest.lock */,
 				B0ED60D7214A8A0600507AEC /* Sources */,
 				B0ED60D8214A8A0600507AEC /* Frameworks */,
 				B0ED60D9214A8A0600507AEC /* Resources */,
@@ -174,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0ED60F5214A8A0600507AEC /* Build configuration list for PBXNativeTarget "高仿马蹄运动UITests" */;
 			buildPhases = (
+				E09270B763792EAD6B325A7E /* [CP] Check Pods Manifest.lock */,
 				B0ED60E2214A8A0600507AEC /* Sources */,
 				B0ED60E3214A8A0600507AEC /* Frameworks */,
 				B0ED60E4214A8A0600507AEC /* Resources */,
@@ -259,6 +303,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DA891A0D8E261EC47BAAD8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-高仿马蹄运动Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		970A01DF8B98372B433BAC4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-高仿马蹄运动/Pods-高仿马蹄运动-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-高仿马蹄运动/Pods-高仿马蹄运动-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAF7A0BA77E2860B8EF2BC3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-高仿马蹄运动-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E09270B763792EAD6B325A7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-高仿马蹄运动UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B0ED60BF214A8A0600507AEC /* Sources */ = {
@@ -428,6 +547,7 @@
 		};
 		B0ED60F0214A8A0600507AEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 961018E4B73907B3E83E8585 /* Pods-高仿马蹄运动.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +561,7 @@
 		};
 		B0ED60F1214A8A0600507AEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68C52F5A95FBC7A5552540B /* Pods-高仿马蹄运动.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +575,7 @@
 		};
 		B0ED60F3214A8A0600507AEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3D049D5EC5FED41CCEB169A /* Pods-高仿马蹄运动Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +590,7 @@
 		};
 		B0ED60F4214A8A0600507AEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E311A32A32C9D1AEAA0A18B6 /* Pods-高仿马蹄运动Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +605,7 @@
 		};
 		B0ED60F6214A8A0600507AEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 390D947EC74433F3C7C32E2E /* Pods-高仿马蹄运动UITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "高仿马蹄运动UITests/Info.plist";
@@ -495,6 +619,7 @@
 		};
 		B0ED60F7214A8A0600507AEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4119E1E7EE1396648AAE09F9 /* Pods-高仿马蹄运动UITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "高仿马蹄运动UITests/Info.plist";
