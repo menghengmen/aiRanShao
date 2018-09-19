@@ -17,6 +17,13 @@
 		B0ED60D6214A8A0600507AEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED60D5214A8A0600507AEC /* main.m */; };
 		B0ED60E0214A8A0600507AEC /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED60DF214A8A0600507AEC /* ______Tests.m */; };
 		B0ED60EB214A8A0600507AEC /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED60EA214A8A0600507AEC /* ______UITests.m */; };
+		B0ED615B2152936A00507AEC /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED61532152936400507AEC /* NavigationViewController.m */; };
+		B0ED615C2152936A00507AEC /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED61562152936700507AEC /* MainTabBarController.m */; };
+		B0ED615D2152936A00507AEC /* UIView+AICategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED61572152936800507AEC /* UIView+AICategory.m */; };
+		B0ED615E2152936A00507AEC /* MyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED615A2152936A00507AEC /* MyTabBar.m */; };
+		B0ED616C2152951400507AEC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED616A2152951400507AEC /* HomeViewController.m */; };
+		B0ED616D2152951400507AEC /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0ED616B2152951400507AEC /* HomeViewController.xib */; };
+		B0ED61702152959700507AEC /* ChooseCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED616F2152959700507AEC /* ChooseCategoryView.m */; };
 		BF275FC8A64960929FD972FA /* libPods-高仿马蹄运动Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F81CCD8D9C6411CC0D9B3B18 /* libPods-高仿马蹄运动Tests.a */; };
 /* End PBXBuildFile section */
 
@@ -54,11 +61,27 @@
 		B0ED60D4214A8A0600507AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0ED60D5214A8A0600507AEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0ED60DB214A8A0600507AEC /* 高仿马蹄运动Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "高仿马蹄运动Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0ED60DF214A8A0600507AEC /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ______Tests.m; sourceTree = "<group>"; };
+		B0ED60DF214A8A0600507AEC /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
 		B0ED60E1214A8A0600507AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0ED60E6214A8A0600507AEC /* 高仿马蹄运动UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "高仿马蹄运动UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0ED60EA214A8A0600507AEC /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ______UITests.m; sourceTree = "<group>"; };
+		B0ED60EA214A8A0600507AEC /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		B0ED60EC214A8A0600507AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0ED61532152936400507AEC /* NavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		B0ED61542152936400507AEC /* NavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		B0ED61552152936600507AEC /* MainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		B0ED61562152936700507AEC /* MainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		B0ED61572152936800507AEC /* UIView+AICategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+AICategory.m"; sourceTree = "<group>"; };
+		B0ED61582152936800507AEC /* UIView+AICategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+AICategory.h"; sourceTree = "<group>"; };
+		B0ED61592152936900507AEC /* MyTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTabBar.h; sourceTree = "<group>"; };
+		B0ED615A2152936A00507AEC /* MyTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTabBar.m; sourceTree = "<group>"; };
+		B0ED6165215293F500507AEC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B0ED61672152948B00507AEC /* NetworkClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkClient.h; sourceTree = "<group>"; };
+		B0ED61682152948B00507AEC /* NetworkClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkClient.m; sourceTree = "<group>"; };
+		B0ED61692152951400507AEC /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B0ED616A2152951400507AEC /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		B0ED616B2152951400507AEC /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		B0ED616E2152959700507AEC /* ChooseCategoryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChooseCategoryView.h; sourceTree = "<group>"; };
+		B0ED616F2152959700507AEC /* ChooseCategoryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChooseCategoryView.m; sourceTree = "<group>"; };
 		B3D049D5EC5FED41CCEB169A /* Pods-高仿马蹄运动Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高仿马蹄运动Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-高仿马蹄运动Tests/Pods-高仿马蹄运动Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E311A32A32C9D1AEAA0A18B6 /* Pods-高仿马蹄运动Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高仿马蹄运动Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-高仿马蹄运动Tests/Pods-高仿马蹄运动Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F68C52F5A95FBC7A5552540B /* Pods-高仿马蹄运动.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高仿马蹄运动.release.xcconfig"; path = "Pods/Target Support Files/Pods-高仿马蹄运动/Pods-高仿马蹄运动.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,6 +164,16 @@
 		B0ED60C5214A8A0600507AEC /* 高仿马蹄运动 */ = {
 			isa = PBXGroup;
 			children = (
+				B0ED61662152948B00507AEC /* NetWork */,
+				B0ED615F2152938D00507AEC /* 首页 */,
+				B0ED61552152936600507AEC /* MainTabBarController.h */,
+				B0ED61562152936700507AEC /* MainTabBarController.m */,
+				B0ED61592152936900507AEC /* MyTabBar.h */,
+				B0ED615A2152936A00507AEC /* MyTabBar.m */,
+				B0ED61542152936400507AEC /* NavigationViewController.h */,
+				B0ED61532152936400507AEC /* NavigationViewController.m */,
+				B0ED61582152936800507AEC /* UIView+AICategory.h */,
+				B0ED61572152936800507AEC /* UIView+AICategory.m */,
 				B0ED60C6214A8A0600507AEC /* AppDelegate.h */,
 				B0ED60C7214A8A0600507AEC /* AppDelegate.m */,
 				B0ED60C9214A8A0600507AEC /* ViewController.h */,
@@ -150,6 +183,7 @@
 				B0ED60D1214A8A0600507AEC /* LaunchScreen.storyboard */,
 				B0ED60D4214A8A0600507AEC /* Info.plist */,
 				B0ED60D5214A8A0600507AEC /* main.m */,
+				B0ED6165215293F500507AEC /* PrefixHeader.pch */,
 			);
 			path = "高仿马蹄运动";
 			sourceTree = "<group>";
@@ -170,6 +204,27 @@
 				B0ED60EC214A8A0600507AEC /* Info.plist */,
 			);
 			path = "高仿马蹄运动UITests";
+			sourceTree = "<group>";
+		};
+		B0ED615F2152938D00507AEC /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				B0ED61692152951400507AEC /* HomeViewController.h */,
+				B0ED616A2152951400507AEC /* HomeViewController.m */,
+				B0ED616B2152951400507AEC /* HomeViewController.xib */,
+				B0ED616E2152959700507AEC /* ChooseCategoryView.h */,
+				B0ED616F2152959700507AEC /* ChooseCategoryView.m */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		B0ED61662152948B00507AEC /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				B0ED61672152948B00507AEC /* NetworkClient.h */,
+				B0ED61682152948B00507AEC /* NetworkClient.m */,
+			);
+			path = NetWork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +340,7 @@
 				B0ED60D3214A8A0600507AEC /* LaunchScreen.storyboard in Resources */,
 				B0ED60D0214A8A0600507AEC /* Assets.xcassets in Resources */,
 				B0ED60CE214A8A0600507AEC /* Main.storyboard in Resources */,
+				B0ED616D2152951400507AEC /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,9 +440,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0ED615D2152936A00507AEC /* UIView+AICategory.m in Sources */,
+				B0ED615B2152936A00507AEC /* NavigationViewController.m in Sources */,
+				B0ED61702152959700507AEC /* ChooseCategoryView.m in Sources */,
+				B0ED615C2152936A00507AEC /* MainTabBarController.m in Sources */,
 				B0ED60CB214A8A0600507AEC /* ViewController.m in Sources */,
 				B0ED60D6214A8A0600507AEC /* main.m in Sources */,
 				B0ED60C8214A8A0600507AEC /* AppDelegate.m in Sources */,
+				B0ED615E2152936A00507AEC /* MyTabBar.m in Sources */,
+				B0ED616C2152951400507AEC /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,6 +613,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "/Users/mengheng/Desktop/高仿项目/高仿马蹄运动/高仿马蹄运动/PrefixHeader.pch";
 				INFOPLIST_FILE = "高仿马蹄运动/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.------";
@@ -565,6 +628,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "/Users/mengheng/Desktop/高仿项目/高仿马蹄运动/高仿马蹄运动/PrefixHeader.pch";
 				INFOPLIST_FILE = "高仿马蹄运动/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.------";

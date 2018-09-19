@@ -1,0 +1,123 @@
+//
+//  PrefixHeader.pch
+//  黄瓜视频
+//
+//  Created by 哈哈 on 2018/8/19.
+//  Copyright © 2018年 哈哈. All rights reserved.
+//
+
+#ifndef PrefixHeader_h
+#define PrefixHeader_h
+
+#import <MJExtension/MJExtension.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "NetworkClient.h"
+#import <MJRefresh/MJRefresh.h>
+#define   GlobalUrl @"http://114.55.224.151:9191"
+
+#define ImgBaseUrl @"http://imgdl-fq.filedata.org/img//"
+#define ImgBaseUrl2 @"http://imgdl-fq.filedata.org/img//"
+#define videoBsaeUrl @"http://videodown.avyubjdh.com/video/"
+
+//http://imgdl-fq.filedata.org/img//12/0ef5aa9a85781b170e0c88370a964645_480P.jpg
+//完整视频url
+//http://videodown.avyubjdh.com/video/4/aefd5aaf30b761648d28ad8f448b73de_480P.mp4
+//首页推荐
+#define   HomeRecommendUrl @"http://fqapi.api-root.com//app/article/recommend/list"
+///首页视频
+#define   HomeVideoUrl @"http://fqapi.api-root.com//app/article/list"
+
+
+// 首页icon
+#define HomeIconUrl @"http://app.avohwtpgb.com//home/cls/query"
+/// 首页最新片源
+#define HomeNewMovieUrl @"http://app.avohwtpgb.com//home/newmov/query?pageNo=1"
+
+/// 首页重磅热播
+#define HomeHotMovieUrl @"http://app.avohwtpgb.com//home/hotmov/query?pageNo=2"
+
+/// 首页中文字幕
+#define HomeChineseMovieUrl @"http://app.avohwtpgb.com//home/selection/query"
+/// 首页人气女友
+#define HomeGirlFriend @"http://app.avohwtpgb.com//home/actor/list/top4"
+/// 演员主页
+#define GirlDetailUrl @"http://app.avohwtpgb.com//actor/movie/list"
+/// 演员详情
+#define GirlDetailHeaderUrl @"http://app.avohwtpgb.com//home/actor/detail"
+
+/// 女优列表
+#define GirlListUrl @"http://app.avohwtpgb.com//home/actor/list"
+
+/// 全部高清影片
+#define AllHDVidelUrl @"http://app.avohwtpgb.com//home/clsmov/query"
+///全部高清影片上边的标签
+#define AllHDVideoTitleUrl @"http://app.avohwtpgb.com//home/cls/query"
+
+
+/// 频道tabbar
+#define ChannelUrl @"http://app.avohwtpgb.com//module/list"
+/// 频道详情
+#define ChannelDetailUrl @"http://app.avohwtpgb.com//module/movlist"
+/// 频道详情头部
+#define ChannelDetailHeadUrl @"http://app.avohwtpgb.com//module/nav"
+
+
+/// 发现tabbar
+#define DiscoverUrl @"http://app.avohwtpgb.com//es/guess/like"
+
+/// 视频详情页接口
+#define MovieDetailUrl @"http://app.avohwtpgb.com//mov/browse"
+///视频详情页--视频介绍接口
+#define MovieIntroduceUrl @"http://app.avohwtpgb.com//mov/getUpDown"
+/// 视频详情页 --- 猜你喜欢
+#define MovieFavoriteUrl @"http://app.avohwtpgb.com//es/mov/similar"
+/// 视频详情页 --- 评论
+#define MovieCommentUrl @"http://app.avohwtpgb.com//discuz/list"
+
+//退出登录 get
+#define  Logout  @"http://app.avohwtpgb.com//user/logout"
+//登录
+#define Login   @"http://app.avohwtpgb.com//user/login"
+///激活设备
+#define Active @"http://app.avohwtpgb.com//active/log"
+
+#define weakify(object) autoreleasepool{} __weak __typeof__(object) weak##_##object = object;
+
+#define strongify(object) autoreleasepool{} __typeof__(object) object = weak##_##object;
+
+//rgb颜色设置
+#define RGB(r, g, b)                        [UIColor colorWithRed:(r)/255.f green:(g)/255.f blue:(b)/255.f alpha:1.f]
+#define IS_IPHONE_5 ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )568 ) < DBL_EPSILON )
+
+#define BASE_API_URL @""///////////////////////
+#define IMAGE_API_URL @""//////////////////////
+
+#define APPDELEGATE ((AppDelegate *)[UIApplication sharedApplication].delegate)
+#define FONT_SIZE APPDELEGATE.fontSize
+#define PLACEHOLDER_IMAGE [UIImage imageNamed:@"默认头像"]
+
+
+#define SCREEN_WIDTH_RATE (375/[UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT_RATE (667/[UIScreen mainScreen].bounds.size.height)
+
+
+#define IS_IOS7 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7)
+#define IS_IOS8 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8)
+
+#define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
+#define ContentViewWidth self.contentView.frame.size.width
+#define ContentViewHeight self.contentView.frame.size.height
+#define RGB_COLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+#define HEXCOLOR(hex) [UIColor colorWithRed:((float)((hex & 0xFF0000) >> 16)) / 255.0 green:((float)((hex & 0xFF00) >> 8)) / 255.0 blue:((float)(hex & 0xFF)) / 255.0 alpha:1]
+
+#define RGB_NAV_COLOR RGB_COLOR(212, 81, 72, 1)//常用的通用颜色
+
+
+#define PHOTOMAX_NUMBER 4
+
+// 随机色
+#define RandomColor BXColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+#define IOSVersion                          [[[UIDevice currentDevice] systemVersion] floatValue]
+#define IsiOS7Later                         !(IOSVersion < 7.0)
+#endif /* PrefixHeader_h */
