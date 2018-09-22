@@ -23,7 +23,9 @@
 		B0ED615E2152936A00507AEC /* MyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED615A2152936A00507AEC /* MyTabBar.m */; };
 		B0ED616C2152951400507AEC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED616A2152951400507AEC /* HomeViewController.m */; };
 		B0ED616D2152951400507AEC /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0ED616B2152951400507AEC /* HomeViewController.xib */; };
-		B0ED61702152959700507AEC /* ChooseCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED616F2152959700507AEC /* ChooseCategoryView.m */; };
+		B0ED61782156945200507AEC /* ChooseCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED61712156944F00507AEC /* ChooseCategoryViewController.m */; };
+		B0ED61792156945200507AEC /* MoveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED61742156945000507AEC /* MoveCell.m */; };
+		B0ED617A2156945200507AEC /* ChooseCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED61762156945100507AEC /* ChooseCategoryView.m */; };
 		BF275FC8A64960929FD972FA /* libPods-高仿马蹄运动Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F81CCD8D9C6411CC0D9B3B18 /* libPods-高仿马蹄运动Tests.a */; };
 /* End PBXBuildFile section */
 
@@ -80,8 +82,13 @@
 		B0ED61692152951400507AEC /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		B0ED616A2152951400507AEC /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		B0ED616B2152951400507AEC /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		B0ED616E2152959700507AEC /* ChooseCategoryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChooseCategoryView.h; sourceTree = "<group>"; };
-		B0ED616F2152959700507AEC /* ChooseCategoryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChooseCategoryView.m; sourceTree = "<group>"; };
+		B0ED61712156944F00507AEC /* ChooseCategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChooseCategoryViewController.m; sourceTree = "<group>"; };
+		B0ED61722156944F00507AEC /* ChooseCategoryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChooseCategoryView.h; sourceTree = "<group>"; };
+		B0ED61732156945000507AEC /* ChooseCategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChooseCategoryViewController.h; sourceTree = "<group>"; };
+		B0ED61742156945000507AEC /* MoveCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveCell.m; sourceTree = "<group>"; };
+		B0ED61752156945100507AEC /* MoveCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveCell.h; sourceTree = "<group>"; };
+		B0ED61762156945100507AEC /* ChooseCategoryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChooseCategoryView.m; sourceTree = "<group>"; };
+		B0ED61772156945200507AEC /* ChooseCategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseCategoryViewController.xib; sourceTree = "<group>"; };
 		B3D049D5EC5FED41CCEB169A /* Pods-高仿马蹄运动Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高仿马蹄运动Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-高仿马蹄运动Tests/Pods-高仿马蹄运动Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E311A32A32C9D1AEAA0A18B6 /* Pods-高仿马蹄运动Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高仿马蹄运动Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-高仿马蹄运动Tests/Pods-高仿马蹄运动Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F68C52F5A95FBC7A5552540B /* Pods-高仿马蹄运动.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高仿马蹄运动.release.xcconfig"; path = "Pods/Target Support Files/Pods-高仿马蹄运动/Pods-高仿马蹄运动.release.xcconfig"; sourceTree = "<group>"; };
@@ -212,8 +219,13 @@
 				B0ED61692152951400507AEC /* HomeViewController.h */,
 				B0ED616A2152951400507AEC /* HomeViewController.m */,
 				B0ED616B2152951400507AEC /* HomeViewController.xib */,
-				B0ED616E2152959700507AEC /* ChooseCategoryView.h */,
-				B0ED616F2152959700507AEC /* ChooseCategoryView.m */,
+				B0ED61722156944F00507AEC /* ChooseCategoryView.h */,
+				B0ED61762156945100507AEC /* ChooseCategoryView.m */,
+				B0ED61732156945000507AEC /* ChooseCategoryViewController.h */,
+				B0ED61712156944F00507AEC /* ChooseCategoryViewController.m */,
+				B0ED61772156945200507AEC /* ChooseCategoryViewController.xib */,
+				B0ED61752156945100507AEC /* MoveCell.h */,
+				B0ED61742156945000507AEC /* MoveCell.m */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -440,15 +452,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0ED617A2156945200507AEC /* ChooseCategoryView.m in Sources */,
+				B0ED61792156945200507AEC /* MoveCell.m in Sources */,
 				B0ED615D2152936A00507AEC /* UIView+AICategory.m in Sources */,
 				B0ED615B2152936A00507AEC /* NavigationViewController.m in Sources */,
-				B0ED61702152959700507AEC /* ChooseCategoryView.m in Sources */,
 				B0ED615C2152936A00507AEC /* MainTabBarController.m in Sources */,
 				B0ED60CB214A8A0600507AEC /* ViewController.m in Sources */,
 				B0ED60D6214A8A0600507AEC /* main.m in Sources */,
 				B0ED60C8214A8A0600507AEC /* AppDelegate.m in Sources */,
 				B0ED615E2152936A00507AEC /* MyTabBar.m in Sources */,
 				B0ED616C2152951400507AEC /* HomeViewController.m in Sources */,
+				B0ED61782156945200507AEC /* ChooseCategoryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

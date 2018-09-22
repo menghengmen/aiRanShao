@@ -115,7 +115,7 @@
 
 
 #define PHOTOMAX_NUMBER 4
-
+#define NUMBEROFMOVECELL 5
 // 随机色
 #define RandomColor BXColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
 #define IOSVersion                          [[[UIDevice currentDevice] systemVersion] floatValue]

@@ -7,9 +7,8 @@
 //
 
 #import "HomeViewController.h"
-#import "ChooseCategoryView.h"
+#import "ChooseCategoryViewController.h"
 @interface HomeViewController ()
-@property (nonatomic,strong) ChooseCategoryView  *categoryView;
 @end
 
 @implementation HomeViewController
@@ -24,6 +23,8 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)chooseChannel:(id)sender {
+    [self presentViewController:[ChooseCategoryViewController new] animated:YES completion:nil];
+    
 }
 
 /*
