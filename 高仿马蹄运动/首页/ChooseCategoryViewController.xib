@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,24 +19,24 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1e4-ui-wud">
-                    <rect key="frame" x="305" y="20" width="60" height="60"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UXL-ng-umy">
+                    <rect key="frame" x="299" y="20" width="60" height="60"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="60" id="bIJ-TX-fmT"/>
-                        <constraint firstAttribute="width" constant="60" id="mui-nq-fmM"/>
+                        <constraint firstAttribute="width" constant="60" id="3mm-mk-Zc1"/>
+                        <constraint firstAttribute="height" constant="60" id="Juu-pF-ONA"/>
                     </constraints>
                     <state key="normal" title="关闭">
-                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                     </state>
                     <connections>
-                        <action selector="dismissVC:" destination="-1" eventType="touchUpInside" id="ylo-WQ-K1j"/>
+                        <action selector="dismiss:" destination="-1" eventType="touchUpInside" id="ibh-7F-vSi"/>
                     </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="1e4-ui-wud" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="2LR-vb-0zg"/>
-                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="1e4-ui-wud" secondAttribute="trailing" constant="10" id="US7-qp-vF6"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="UXL-ng-umy" secondAttribute="trailing" constant="16" id="cBh-48-6Rk"/>
+                <constraint firstItem="UXL-ng-umy" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="oPN-4f-pcX"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
         </view>

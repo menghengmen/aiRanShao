@@ -26,6 +26,6 @@
 @property(nonatomic,strong)  UILabel *titleLabel;
 @property(nonatomic,assign)  BOOL moveCellIsMoving; //是否正在移动;
 @property(nonatomic,strong)  NSIndexPath *position; //记录cell 的位置信息
-
+@property(nonatomic,assign)  NSInteger destinationPositon;///记录cell的移动终点
 @end
 

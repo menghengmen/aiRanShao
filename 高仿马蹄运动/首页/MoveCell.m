@@ -28,6 +28,7 @@
     v.userInteractionEnabled = YES;
     self.titleLabel = v;
     self.moveCellIsMoving = NO;
+    self.destinationPositon = -1;
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{

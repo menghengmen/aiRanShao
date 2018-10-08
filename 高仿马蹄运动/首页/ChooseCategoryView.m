@@ -77,6 +77,8 @@ typedef enum :NSUInteger{
   
     /// 推荐
 
+    
+    
     /// 设置已选频道
     self.points = [self getCellCenter:self.currentChoiceChannels.count section:0];
     for (int i = 0 ; i < self.points.count; i ++) {
@@ -221,11 +223,59 @@ typedef enum :NSUInteger{
         [self reSetDataSource];
     
     }
-    
-    
-    
-    
 }
+
+-(void)moveCell:(MoveCell *)moveCell touchesMove:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    ///正在移动中
+    moveCell.moveCellIsMoving = YES;
+    
+    CGPoint prePoint = [[touches anyObject] previousLocationInView:self];
+    CGPoint currentPoint = [[touches anyObject] locationInView:self];
+    CGPoint currentCenter = moveCell.center;
+    CGFloat moveX =currentPoint.x - prePoint.x;
+    CGFloat moveY = currentPoint.y-prePoint.y;
+    currentCenter.x += moveX;
+    currentCenter.y += moveY;
+    
+    for (int i =0 ; i <self.moveCells_sectionOne.count; i ++) {
+        NSValue *pointValue = [self.points objectAtIndex:i];
+        CGPoint point = [pointValue CGPointValue];
+        CGRect rect =CGRectMake(point.x - self.moveCellWidth*0.5, point.y-self.moveCellheigth/2, self.moveCellWidth, self.moveCellheigth);
+        if (CGRectContainsPoint(rect, currentCenter)) {
+            if (moveCell.position.item ==i) {
+                moveCell.destinationPositon = i;
+            } else {
+                moveCell.destinationPositon = -1;
+            }
+        }
+    }
+    if (moveCell.destinationPositon ==-1) {
+        return;
+    }
+    
+    ///更换数组
+    NSMutableArray *replaceArr = [NSMutableArray new];
+    ///处理数据
+    [self.moveCells_sectionOne removeObject:moveCell];
+    for (MoveCell *cell  in self.moveCells_sectionOne) {
+        [replaceArr addObject:cell];
+    }
+    //插入移动的那个
+    [replaceArr insertObject:moveCell atIndex:moveCell.destinationPositon];
+    ///
+    self.moveCells_sectionOne = replaceArr;
+   ///从新设置第一个区cell的位置
+    for (int i =0; i <self.moveCells_sectionOne.count; i++) {
+        MoveCell *cell = [self.moveCells_sectionOne objectAtIndex:i];
+        cell.position = [NSIndexPath indexPathForItem:i inSection:0];
+    }
+    
+    
+    [self moveCellAnimationAction:moveCellAnimationTypePanBetweenEachOther];
+    [self reSetDataSource];
+
+}
+
 
 /// 动画操作
 -(void)moveCellAnimationAction:(moveCellAnimationType)type{
@@ -251,8 +301,22 @@ typedef enum :NSUInteger{
         } completion:^(BOOL finished) {
            
         }];
+    } else if (type == moveCellAnimationTypePanBetweenEachOther){
+        [UIView animateWithDuration:1 animations:^{
+            for (int i = 0 ; i <self.moveCells_sectionOne.count; i ++) {
+                MoveCell *cell = [self.moveCells_sectionOne objectAtIndex:i];
+                if (cell.destinationPositon !=-1) {
+                    cell.destinationPositon  =-1;
+                    continue;
+                }
+                
+                NSValue *pointValue = [self.points objectAtIndex:i];
+                CGPoint point = [pointValue CGPointValue];
+                cell.center = point;
+            }
+        }];
+        
     }
-    
     
 }
 
