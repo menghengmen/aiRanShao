@@ -10,6 +10,7 @@
 #import "MyTabBar.h"
 #import "NavigationViewController.h"
 #import "HomeViewController.h"
+#import "HouseDetailViewController.h"
 @interface MainTabBarController ()
 
 @end
@@ -23,7 +24,9 @@
     homeVC.title = @"推荐";
     [self addChildVC:homeVC imageName:@"tabBar_essence_icon" selectedImageName:@"tabBar_essence_click_icon"];
 
-  
+    HouseDetailViewController *houseVC = [[HouseDetailViewController alloc] init];
+    houseVC.title = @"房源";
+    [self addChildVC:houseVC imageName:@"tabBar_essence_icon" selectedImageName:@"tabBar_essence_click_icon"];
 
     
     MyTabBar *myTabBar = [[MyTabBar alloc] init];

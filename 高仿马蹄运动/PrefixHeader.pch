@@ -81,6 +81,13 @@
 ///激活设备
 #define Active @"http://app.avohwtpgb.com//active/log"
 
+
+typedef NS_ENUM(NSInteger,XYPhonesType) {
+    XYPhonesTypeFullVideos = 1,//全景视频
+    XYPhonesTypeFullImage,//全景图
+    XYPhonesTypeImage//普通图片
+};
+
 #define weakify(object) autoreleasepool{} __weak __typeof__(object) weak##_##object = object;
 
 #define strongify(object) autoreleasepool{} __typeof__(object) object = weak##_##object;

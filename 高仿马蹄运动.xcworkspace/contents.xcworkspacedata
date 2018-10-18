@@ -2,15 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/mengheng/Desktop/&#x9ad8;&#x4eff;&#x9879;&#x76ee;/&#x9ad8;&#x4eff;&#x9a6c;&#x8e44;&#x8fd0;&#x52a8;/&#x9ad8;&#x4eff;&#x9a6c;&#x8e44;&#x8fd0;&#x52a8;/&#x9996;&#x9875;/ChooseCategoryViewController.h">
-   </FileRef>
-   <FileRef
-      location = "group:/Users/mengheng/Desktop/&#x9ad8;&#x4eff;&#x9879;&#x76ee;/&#x9ad8;&#x4eff;&#x9a6c;&#x8e44;&#x8fd0;&#x52a8;/&#x9ad8;&#x4eff;&#x9a6c;&#x8e44;&#x8fd0;&#x52a8;/&#x9996;&#x9875;/ChooseCategoryViewController.m">
-   </FileRef>
-   <FileRef
-      location = "group:/Users/mengheng/Desktop/&#x9ad8;&#x4eff;&#x9879;&#x76ee;/&#x9ad8;&#x4eff;&#x9a6c;&#x8e44;&#x8fd0;&#x52a8;/&#x9ad8;&#x4eff;&#x9a6c;&#x8e44;&#x8fd0;&#x52a8;/&#x9996;&#x9875;/ChooseCategoryViewController.xib">
-   </FileRef>
-   <FileRef
       location = "group:&#x9ad8;&#x4eff;&#x9a6c;&#x8e44;&#x8fd0;&#x52a8;.xcodeproj">
    </FileRef>
    <FileRef

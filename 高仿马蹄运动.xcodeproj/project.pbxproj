@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		4D29A22BBC8FAB1F25105C4A /* libPods-高仿马蹄运动UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CA3CDFF2FD3DC6B6E4BDCE /* libPods-高仿马蹄运动UITests.a */; };
 		A6BC9FF469374BA3619CD1CD /* libPods-高仿马蹄运动.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BCB74231BA2B829B2851984 /* libPods-高仿马蹄运动.a */; };
+		B008D7402178AF1300DB5B08 /* ChooseCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B008D73E2178AF1100DB5B08 /* ChooseCategoryViewController.m */; };
+		B008D7452178AF6900DB5B08 /* HouseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B008D7432178AF6900DB5B08 /* HouseDetailViewController.m */; };
+		B008D7462178AF6900DB5B08 /* HouseDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B008D7442178AF6900DB5B08 /* HouseDetailViewController.xib */; };
+		B008D7542178B40400DB5B08 /* XYImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B008D7502178B07900DB5B08 /* XYImageModel.m */; };
+		B008D7552178B40400DB5B08 /* XYBrawerBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = B008D74C2178B02D00DB5B08 /* XYBrawerBtnView.m */; };
+		B008D7562178B40400DB5B08 /* XYBrawerHeaderImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B008D74E2178B02D00DB5B08 /* XYBrawerHeaderImageView.m */; };
+		B008D7572178B40400DB5B08 /* XYFlatBrawerHeaderBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = B008D7522178B0B800DB5B08 /* XYFlatBrawerHeaderBtn.m */; };
+		B008D7582178B40400DB5B08 /* XYFlatBrawerHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B008D7492178B01000DB5B08 /* XYFlatBrawerHeader.m */; };
+		B008D75A2178B73D00DB5B08 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = B008D7592178B73D00DB5B08 /* data.plist */; };
+		B008D75B2178BC8700DB5B08 /* XYBrawerBtnView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B008D74D2178B02D00DB5B08 /* XYBrawerBtnView.xib */; };
 		B0ED60C8214A8A0600507AEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED60C7214A8A0600507AEC /* AppDelegate.m */; };
 		B0ED60CB214A8A0600507AEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED60CA214A8A0600507AEC /* ViewController.m */; };
 		B0ED60CE214A8A0600507AEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0ED60CC214A8A0600507AEC /* Main.storyboard */; };
@@ -25,7 +35,6 @@
 		B0ED616D2152951400507AEC /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0ED616B2152951400507AEC /* HomeViewController.xib */; };
 		B0ED61792156945200507AEC /* MoveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED61742156945000507AEC /* MoveCell.m */; };
 		B0ED617A2156945200507AEC /* ChooseCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED61762156945100507AEC /* ChooseCategoryView.m */; };
-		B0ED617E2156964100507AEC /* ChooseCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED617C2156964000507AEC /* ChooseCategoryViewController.m */; };
 		BF275FC8A64960929FD972FA /* libPods-高仿马蹄运动Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F81CCD8D9C6411CC0D9B3B18 /* libPods-高仿马蹄运动Tests.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +61,24 @@
 		88CA3CDFF2FD3DC6B6E4BDCE /* libPods-高仿马蹄运动UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-高仿马蹄运动UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BCB74231BA2B829B2851984 /* libPods-高仿马蹄运动.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-高仿马蹄运动.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		961018E4B73907B3E83E8585 /* Pods-高仿马蹄运动.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高仿马蹄运动.debug.xcconfig"; path = "Pods/Target Support Files/Pods-高仿马蹄运动/Pods-高仿马蹄运动.debug.xcconfig"; sourceTree = "<group>"; };
+		B008D73D2178AF1100DB5B08 /* ChooseCategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChooseCategoryViewController.h; sourceTree = "<group>"; };
+		B008D73E2178AF1100DB5B08 /* ChooseCategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChooseCategoryViewController.m; sourceTree = "<group>"; };
+		B008D73F2178AF1200DB5B08 /* ChooseCategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseCategoryViewController.xib; sourceTree = "<group>"; };
+		B008D7422178AF6900DB5B08 /* HouseDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HouseDetailViewController.h; sourceTree = "<group>"; };
+		B008D7432178AF6900DB5B08 /* HouseDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HouseDetailViewController.m; sourceTree = "<group>"; };
+		B008D7442178AF6900DB5B08 /* HouseDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HouseDetailViewController.xib; sourceTree = "<group>"; };
+		B008D7482178B01000DB5B08 /* XYFlatBrawerHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYFlatBrawerHeader.h; sourceTree = "<group>"; };
+		B008D7492178B01000DB5B08 /* XYFlatBrawerHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYFlatBrawerHeader.m; sourceTree = "<group>"; };
+		B008D74A2178B02D00DB5B08 /* XYBrawerHeaderImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYBrawerHeaderImageView.h; sourceTree = "<group>"; };
+		B008D74B2178B02D00DB5B08 /* XYBrawerBtnView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYBrawerBtnView.h; sourceTree = "<group>"; };
+		B008D74C2178B02D00DB5B08 /* XYBrawerBtnView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYBrawerBtnView.m; sourceTree = "<group>"; };
+		B008D74D2178B02D00DB5B08 /* XYBrawerBtnView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XYBrawerBtnView.xib; sourceTree = "<group>"; };
+		B008D74E2178B02D00DB5B08 /* XYBrawerHeaderImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYBrawerHeaderImageView.m; sourceTree = "<group>"; };
+		B008D7502178B07900DB5B08 /* XYImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYImageModel.m; sourceTree = "<group>"; };
+		B008D7512178B07900DB5B08 /* XYImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYImageModel.h; sourceTree = "<group>"; };
+		B008D7522178B0B800DB5B08 /* XYFlatBrawerHeaderBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYFlatBrawerHeaderBtn.m; sourceTree = "<group>"; };
+		B008D7532178B0B800DB5B08 /* XYFlatBrawerHeaderBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYFlatBrawerHeaderBtn.h; sourceTree = "<group>"; };
+		B008D7592178B73D00DB5B08 /* data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 		B0ED60C3214A8A0600507AEC /* 高仿马蹄运动.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "高仿马蹄运动.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0ED60C6214A8A0600507AEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0ED60C7214A8A0600507AEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -86,9 +113,6 @@
 		B0ED61742156945000507AEC /* MoveCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveCell.m; sourceTree = "<group>"; };
 		B0ED61752156945100507AEC /* MoveCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveCell.h; sourceTree = "<group>"; };
 		B0ED61762156945100507AEC /* ChooseCategoryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChooseCategoryView.m; sourceTree = "<group>"; };
-		B0ED617B2156964000507AEC /* ChooseCategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ChooseCategoryViewController.h; path = "/Users/mengheng/Desktop/高仿项目/高仿马蹄运动/高仿马蹄运动/首页/ChooseCategoryViewController.h"; sourceTree = "<absolute>"; };
-		B0ED617C2156964000507AEC /* ChooseCategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ChooseCategoryViewController.m; path = "/Users/mengheng/Desktop/高仿项目/高仿马蹄运动/高仿马蹄运动/首页/ChooseCategoryViewController.m"; sourceTree = "<absolute>"; };
-		B0ED617D2156964000507AEC /* ChooseCategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ChooseCategoryViewController.xib; path = "/Users/mengheng/Desktop/高仿项目/高仿马蹄运动/高仿马蹄运动/首页/ChooseCategoryViewController.xib"; sourceTree = "<absolute>"; };
 		B3D049D5EC5FED41CCEB169A /* Pods-高仿马蹄运动Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高仿马蹄运动Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-高仿马蹄运动Tests/Pods-高仿马蹄运动Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E311A32A32C9D1AEAA0A18B6 /* Pods-高仿马蹄运动Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高仿马蹄运动Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-高仿马蹄运动Tests/Pods-高仿马蹄运动Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F68C52F5A95FBC7A5552540B /* Pods-高仿马蹄运动.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高仿马蹄运动.release.xcconfig"; path = "Pods/Target Support Files/Pods-高仿马蹄运动/Pods-高仿马蹄运动.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,9 +170,47 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B008D7412178AF5200DB5B08 /* 房源详情 */ = {
+			isa = PBXGroup;
+			children = (
+				B008D74F2178B04400DB5B08 /* Model */,
+				B008D7472178B00100DB5B08 /* View */,
+				B008D7422178AF6900DB5B08 /* HouseDetailViewController.h */,
+				B008D7432178AF6900DB5B08 /* HouseDetailViewController.m */,
+				B008D7442178AF6900DB5B08 /* HouseDetailViewController.xib */,
+			);
+			path = "房源详情";
+			sourceTree = "<group>";
+		};
+		B008D7472178B00100DB5B08 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B008D74B2178B02D00DB5B08 /* XYBrawerBtnView.h */,
+				B008D74C2178B02D00DB5B08 /* XYBrawerBtnView.m */,
+				B008D74D2178B02D00DB5B08 /* XYBrawerBtnView.xib */,
+				B008D74A2178B02D00DB5B08 /* XYBrawerHeaderImageView.h */,
+				B008D74E2178B02D00DB5B08 /* XYBrawerHeaderImageView.m */,
+				B008D7532178B0B800DB5B08 /* XYFlatBrawerHeaderBtn.h */,
+				B008D7522178B0B800DB5B08 /* XYFlatBrawerHeaderBtn.m */,
+				B008D7482178B01000DB5B08 /* XYFlatBrawerHeader.h */,
+				B008D7492178B01000DB5B08 /* XYFlatBrawerHeader.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B008D74F2178B04400DB5B08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B008D7512178B07900DB5B08 /* XYImageModel.h */,
+				B008D7502178B07900DB5B08 /* XYImageModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B0ED60BA214A8A0600507AEC = {
 			isa = PBXGroup;
 			children = (
+				B008D7592178B73D00DB5B08 /* data.plist */,
 				B0ED60C5214A8A0600507AEC /* 高仿马蹄运动 */,
 				B0ED60DE214A8A0600507AEC /* 高仿马蹄运动Tests */,
 				B0ED60E9214A8A0600507AEC /* 高仿马蹄运动UITests */,
@@ -171,6 +233,7 @@
 		B0ED60C5214A8A0600507AEC /* 高仿马蹄运动 */ = {
 			isa = PBXGroup;
 			children = (
+				B008D7412178AF5200DB5B08 /* 房源详情 */,
 				B0ED61662152948B00507AEC /* NetWork */,
 				B0ED615F2152938D00507AEC /* 首页 */,
 				B0ED61552152936600507AEC /* MainTabBarController.h */,
@@ -216,9 +279,9 @@
 		B0ED615F2152938D00507AEC /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
-				B0ED617B2156964000507AEC /* ChooseCategoryViewController.h */,
-				B0ED617C2156964000507AEC /* ChooseCategoryViewController.m */,
-				B0ED617D2156964000507AEC /* ChooseCategoryViewController.xib */,
+				B008D73D2178AF1100DB5B08 /* ChooseCategoryViewController.h */,
+				B008D73E2178AF1100DB5B08 /* ChooseCategoryViewController.m */,
+				B008D73F2178AF1200DB5B08 /* ChooseCategoryViewController.xib */,
 				B0ED61692152951400507AEC /* HomeViewController.h */,
 				B0ED616A2152951400507AEC /* HomeViewController.m */,
 				B0ED616B2152951400507AEC /* HomeViewController.xib */,
@@ -349,7 +412,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B008D75B2178BC8700DB5B08 /* XYBrawerBtnView.xib in Resources */,
+				B008D75A2178B73D00DB5B08 /* data.plist in Resources */,
 				B0ED60D3214A8A0600507AEC /* LaunchScreen.storyboard in Resources */,
+				B008D7462178AF6900DB5B08 /* HouseDetailViewController.xib in Resources */,
 				B0ED60D0214A8A0600507AEC /* Assets.xcassets in Resources */,
 				B0ED60CE214A8A0600507AEC /* Main.storyboard in Resources */,
 				B0ED616D2152951400507AEC /* HomeViewController.xib in Resources */,
@@ -452,7 +518,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0ED617E2156964100507AEC /* ChooseCategoryViewController.m in Sources */,
+				B008D7542178B40400DB5B08 /* XYImageModel.m in Sources */,
+				B008D7552178B40400DB5B08 /* XYBrawerBtnView.m in Sources */,
+				B008D7562178B40400DB5B08 /* XYBrawerHeaderImageView.m in Sources */,
+				B008D7572178B40400DB5B08 /* XYFlatBrawerHeaderBtn.m in Sources */,
+				B008D7582178B40400DB5B08 /* XYFlatBrawerHeader.m in Sources */,
 				B0ED617A2156945200507AEC /* ChooseCategoryView.m in Sources */,
 				B0ED61792156945200507AEC /* MoveCell.m in Sources */,
 				B0ED615D2152936A00507AEC /* UIView+AICategory.m in Sources */,
@@ -461,8 +531,10 @@
 				B0ED60CB214A8A0600507AEC /* ViewController.m in Sources */,
 				B0ED60D6214A8A0600507AEC /* main.m in Sources */,
 				B0ED60C8214A8A0600507AEC /* AppDelegate.m in Sources */,
+				B008D7452178AF6900DB5B08 /* HouseDetailViewController.m in Sources */,
 				B0ED615E2152936A00507AEC /* MyTabBar.m in Sources */,
 				B0ED616C2152951400507AEC /* HomeViewController.m in Sources */,
+				B008D7402178AF1300DB5B08 /* ChooseCategoryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
