@@ -12,7 +12,7 @@
 #import "XYBrawerBtnView.h"
 
 @interface XYFlatBrawerHeader()<UIScrollViewDelegate>
-//@property (nonatomic,strong)UIImageView *indicateView;//指示用的三角形
+@property (nonatomic,strong)UIImageView *indicateView;//指示用的三角形
 @property (nonatomic,strong)UIView *btnView;
 @property (nonatomic,strong)UIPageControl *pageControl;
 
@@ -67,13 +67,13 @@
     return _midImageView;
 }
 
-//-(UIImageView *)indicateView{
-//    if (!_indicateView) {
-//        _indicateView = [[UIImageView alloc]initWithFrame:CGRectMake(0, self.titlesScrollView.frame.size.height -10, 20, 10)];
-//        _indicateView.image = [UIImage imageNamed:@"white_Triangle"];
-//    }
-//    return _indicateView;
-//}
+-(UIImageView *)indicateView{
+    if (!_indicateView) {
+        _indicateView = [[UIImageView alloc]initWithFrame:CGRectMake(0, self.titlesScrollView.frame.size.height -10, 20, 10)];
+        _indicateView.image = [UIImage imageNamed:@"white_Triangle"];
+    }
+    return _indicateView;
+}
 
 -(UIView *)btnView{
     if (!_btnView) {
@@ -98,7 +98,7 @@
     if (!_titlesScrollView) {
         _titlesScrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, self.frame.size.height - 25, self.frame.size.width, 25)];
         _titlesScrollView.backgroundColor = [[UIColor blackColor]colorWithAlphaComponent:0.7f];
-        _titlesScrollView.bounces = false;
+        _titlesScrollView.bounces = true;
         _titlesScrollView.clipsToBounds = false;
         _titlesScrollView.showsVerticalScrollIndicator =NO;
         _titlesScrollView.showsHorizontalScrollIndicator =NO;

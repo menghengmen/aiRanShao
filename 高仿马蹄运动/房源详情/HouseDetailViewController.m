@@ -44,6 +44,8 @@
     NSMutableArray *sectionArr1 = [NSMutableArray new];
     NSMutableArray *sectionArr2 = [NSMutableArray new];
     NSMutableArray *sectionArr3 = [NSMutableArray new];
+    NSMutableArray *sectionArr4 = [NSMutableArray new];
+    NSMutableArray *sectionArr5 = [NSMutableArray new];
 
     for (int i =0 ; i <arr.count; i++) {
         XYImageModel *model = [XYImageModel mj_objectWithKeyValues:(NSDictionary*)arr[i]];
@@ -55,7 +57,13 @@
         } else if ([model.des isEqualToString:@"鸟瞰图"]){
             [sectionArr2 addObject:model];
 
-        } else{
+        } else if ([model.des isEqualToString:@"客房"]){
+            [sectionArr4 addObject:model];
+            
+        }else if ([model.des isEqualToString:@"卫浴"]){
+            [sectionArr5 addObject:model];
+            
+        }else{
             [sectionArr3 addObject:model];
 
 
@@ -68,6 +76,8 @@
     [self.imagesData addObject:sectionArr1];
     [self.imagesData addObject:sectionArr2];
     [self.imagesData addObject:sectionArr3];
+    [self.imagesData addObject:sectionArr4];
+    [self.imagesData addObject:sectionArr5];
 
     [self.view addSubview:self.header];
     [self.header reloadData];

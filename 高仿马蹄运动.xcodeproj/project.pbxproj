@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B13C70C2179D09C00FF5D8D /* AbroadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B13C70B2179D09C00FF5D8D /* AbroadViewController.m */; };
+		1B13C70F2179D0B100FF5D8D /* XYCollectionBrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B13C70E2179D0B000FF5D8D /* XYCollectionBrawer.m */; };
+		1B13C7132179D0D600FF5D8D /* TestCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B13C7102179D0D500FF5D8D /* TestCollectionViewCell.m */; };
+		1B13C7142179D0D600FF5D8D /* TestCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B13C7112179D0D500FF5D8D /* TestCollectionViewCell.xib */; };
 		4D29A22BBC8FAB1F25105C4A /* libPods-高仿马蹄运动UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CA3CDFF2FD3DC6B6E4BDCE /* libPods-高仿马蹄运动UITests.a */; };
 		A6BC9FF469374BA3619CD1CD /* libPods-高仿马蹄运动.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BCB74231BA2B829B2851984 /* libPods-高仿马蹄运动.a */; };
 		B008D7402178AF1300DB5B08 /* ChooseCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B008D73E2178AF1100DB5B08 /* ChooseCategoryViewController.m */; };
@@ -56,6 +60,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B13C70A2179D09C00FF5D8D /* AbroadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbroadViewController.h; sourceTree = "<group>"; };
+		1B13C70B2179D09C00FF5D8D /* AbroadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbroadViewController.m; sourceTree = "<group>"; };
+		1B13C70D2179D0B000FF5D8D /* XYCollectionBrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCollectionBrawer.h; sourceTree = "<group>"; };
+		1B13C70E2179D0B000FF5D8D /* XYCollectionBrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCollectionBrawer.m; sourceTree = "<group>"; };
+		1B13C7102179D0D500FF5D8D /* TestCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewCell.m; sourceTree = "<group>"; };
+		1B13C7112179D0D500FF5D8D /* TestCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestCollectionViewCell.xib; sourceTree = "<group>"; };
+		1B13C7122179D0D600FF5D8D /* TestCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewCell.h; sourceTree = "<group>"; };
 		390D947EC74433F3C7C32E2E /* Pods-高仿马蹄运动UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高仿马蹄运动UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-高仿马蹄运动UITests/Pods-高仿马蹄运动UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4119E1E7EE1396648AAE09F9 /* Pods-高仿马蹄运动UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高仿马蹄运动UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-高仿马蹄运动UITests/Pods-高仿马蹄运动UITests.release.xcconfig"; sourceTree = "<group>"; };
 		88CA3CDFF2FD3DC6B6E4BDCE /* libPods-高仿马蹄运动UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-高仿马蹄运动UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,6 +158,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B13C7092179D08600FF5D8D /* 海外住宅 */ = {
+			isa = PBXGroup;
+			children = (
+				1B13C7122179D0D600FF5D8D /* TestCollectionViewCell.h */,
+				1B13C7102179D0D500FF5D8D /* TestCollectionViewCell.m */,
+				1B13C7112179D0D500FF5D8D /* TestCollectionViewCell.xib */,
+				1B13C70D2179D0B000FF5D8D /* XYCollectionBrawer.h */,
+				1B13C70E2179D0B000FF5D8D /* XYCollectionBrawer.m */,
+				1B13C70A2179D09C00FF5D8D /* AbroadViewController.h */,
+				1B13C70B2179D09C00FF5D8D /* AbroadViewController.m */,
+			);
+			path = "海外住宅";
+			sourceTree = "<group>";
+		};
 		39525E782AD4F79B29923BB9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +258,7 @@
 		B0ED60C5214A8A0600507AEC /* 高仿马蹄运动 */ = {
 			isa = PBXGroup;
 			children = (
+				1B13C7092179D08600FF5D8D /* 海外住宅 */,
 				B008D7412178AF5200DB5B08 /* 房源详情 */,
 				B0ED61662152948B00507AEC /* NetWork */,
 				B0ED615F2152938D00507AEC /* 首页 */,
@@ -414,6 +440,7 @@
 			files = (
 				B008D75B2178BC8700DB5B08 /* XYBrawerBtnView.xib in Resources */,
 				B008D75A2178B73D00DB5B08 /* data.plist in Resources */,
+				1B13C7142179D0D600FF5D8D /* TestCollectionViewCell.xib in Resources */,
 				B0ED60D3214A8A0600507AEC /* LaunchScreen.storyboard in Resources */,
 				B008D7462178AF6900DB5B08 /* HouseDetailViewController.xib in Resources */,
 				B0ED60D0214A8A0600507AEC /* Assets.xcassets in Resources */,
@@ -521,15 +548,18 @@
 				B008D7542178B40400DB5B08 /* XYImageModel.m in Sources */,
 				B008D7552178B40400DB5B08 /* XYBrawerBtnView.m in Sources */,
 				B008D7562178B40400DB5B08 /* XYBrawerHeaderImageView.m in Sources */,
+				1B13C70C2179D09C00FF5D8D /* AbroadViewController.m in Sources */,
 				B008D7572178B40400DB5B08 /* XYFlatBrawerHeaderBtn.m in Sources */,
 				B008D7582178B40400DB5B08 /* XYFlatBrawerHeader.m in Sources */,
 				B0ED617A2156945200507AEC /* ChooseCategoryView.m in Sources */,
 				B0ED61792156945200507AEC /* MoveCell.m in Sources */,
 				B0ED615D2152936A00507AEC /* UIView+AICategory.m in Sources */,
+				1B13C70F2179D0B100FF5D8D /* XYCollectionBrawer.m in Sources */,
 				B0ED615B2152936A00507AEC /* NavigationViewController.m in Sources */,
 				B0ED615C2152936A00507AEC /* MainTabBarController.m in Sources */,
 				B0ED60CB214A8A0600507AEC /* ViewController.m in Sources */,
 				B0ED60D6214A8A0600507AEC /* main.m in Sources */,
+				1B13C7132179D0D600FF5D8D /* TestCollectionViewCell.m in Sources */,
 				B0ED60C8214A8A0600507AEC /* AppDelegate.m in Sources */,
 				B008D7452178AF6900DB5B08 /* HouseDetailViewController.m in Sources */,
 				B0ED615E2152936A00507AEC /* MyTabBar.m in Sources */,
@@ -699,7 +729,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREFIX_HEADER = "/Users/mengheng/Desktop/高仿项目/高仿马蹄运动/高仿马蹄运动/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/高仿马蹄运动/PrefixHeader.pch";
 				INFOPLIST_FILE = "高仿马蹄运动/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.------";
@@ -714,7 +744,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREFIX_HEADER = "/Users/mengheng/Desktop/高仿项目/高仿马蹄运动/高仿马蹄运动/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/高仿马蹄运动/PrefixHeader.pch";
 				INFOPLIST_FILE = "高仿马蹄运动/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.------";

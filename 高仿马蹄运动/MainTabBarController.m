@@ -11,6 +11,7 @@
 #import "NavigationViewController.h"
 #import "HomeViewController.h"
 #import "HouseDetailViewController.h"
+#import "AbroadViewController.h"
 @interface MainTabBarController ()
 
 @end
@@ -27,6 +28,10 @@
     HouseDetailViewController *houseVC = [[HouseDetailViewController alloc] init];
     houseVC.title = @"房源";
     [self addChildVC:houseVC imageName:@"tabBar_essence_icon" selectedImageName:@"tabBar_essence_click_icon"];
+    
+    AbroadViewController *abroadVC = [[AbroadViewController alloc] init];
+    abroadVC.title = @"海外住宅";
+    [self addChildVC:abroadVC imageName:@"tabBar_essence_icon" selectedImageName:@"tabBar_essence_click_icon"];
 
     
     MyTabBar *myTabBar = [[MyTabBar alloc] init];
