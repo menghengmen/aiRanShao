@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>videoCover</key>
+		<string>2</string>
+		<key>avatar</key>
+		<string>1</string>
+		<key>name</key>
+		<string>哈哈来也</string>
+		<key>createTimeStr</key>
+		<string>9小时前</string>
+		<key>size</key>
+		<string>828*1169;828*1174;828*1174;828*1173;828*1178;828*1186;828*1164</string>
+		<key>viewCount</key>
+		<string>1903</string>
+		<key>videoCommentTimes</key>
+		<string>12</string>
+		<key>totalGoodNums</key>
+		<string>233</string>
+		<key>shareTimes</key>
+		<string>22</string>
+		<key>videoUrl</key>
+		<string></string>
+		<key>descriptionStr</key>
+		<string></string>
+		<key>groupName</key>
+		<string>成人动漫</string>
+	</dict>
+    <dict>
+       
+        <key>avatar</key>
+        <string>5</string>
+        <key>name</key>
+        <string>路飞</string>
+        <key>createTimeStr</key>
+        <string>1小时前</string>
+        <key>size</key>
+        <string>828*1169;828*1174;828*1174;828*1173;828*1178;828*1186;828*1164</string>
+        <key>viewCount</key>
+        <string>19</string>
+        <key>videoCommentTimes</key>
+        <string>2</string>
+        <key>totalGoodNums</key>
+        <string>33</string>
+        <key>shareTimes</key>
+        <string>44</string>
+        <key>videoUrl</key>
+        <string></string>
+        <key>videoCover</key>
+        <string>4</string>
+        <key>descriptionStr</key>
+        <string></string>
+        <key>groupName</key>
+        <string>成人动漫</string>
+    </dict>
+    
+    <dict>
+        
+        <key>avatar</key>
+        <string>5</string>
+        <key>name</key>
+        <string>索隆</string>
+        <key>createTimeStr</key>
+        <string>1小时前</string>
+        <key>size</key>
+        <string>828*1169;828*1174;828*1174;828*1173;828*1178;828*1186;828*1164</string>
+        <key>viewCount</key>
+        <string>19</string>
+        <key>videoCommentTimes</key>
+        <string>2</string>
+        <key>totalGoodNums</key>
+        <string>33</string>
+        <key>shareTimes</key>
+        <string>44</string>
+        <key>videoUrl</key>
+        <string></string>
+        <key>videoCover</key>
+        <string>14</string>
+        <key>descriptionStr</key>
+        <string></string>
+        <key>groupName</key>
+        <string>成人动漫</string>
+    </dict>
+</array>
+</plist>

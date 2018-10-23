@@ -12,6 +12,7 @@
 #import "HomeViewController.h"
 #import "HouseDetailViewController.h"
 #import "AbroadViewController.h"
+#import "RecommendViewController.h"
 @interface MainTabBarController ()
 
 @end
@@ -32,7 +33,9 @@
     AbroadViewController *abroadVC = [[AbroadViewController alloc] init];
     abroadVC.title = @"海外住宅";
     [self addChildVC:abroadVC imageName:@"tabBar_essence_icon" selectedImageName:@"tabBar_essence_click_icon"];
-
+    RecommendViewController *recommend = [[RecommendViewController alloc] init];
+    recommend.title = @"推荐视频";
+    [self addChildVC:recommend imageName:@"tabBar_essence_icon" selectedImageName:@"tabBar_essence_click_icon"];
     
     MyTabBar *myTabBar = [[MyTabBar alloc] init];
     [self setValue:myTabBar forKey:@"tabBar"];

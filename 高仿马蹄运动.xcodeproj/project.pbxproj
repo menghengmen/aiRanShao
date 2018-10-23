@@ -23,6 +23,12 @@
 		B008D7582178B40400DB5B08 /* XYFlatBrawerHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B008D7492178B01000DB5B08 /* XYFlatBrawerHeader.m */; };
 		B008D75A2178B73D00DB5B08 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = B008D7592178B73D00DB5B08 /* data.plist */; };
 		B008D75B2178BC8700DB5B08 /* XYBrawerBtnView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B008D74D2178B02D00DB5B08 /* XYBrawerBtnView.xib */; };
+		B008D75E217F633E00DB5B08 /* RecommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B008D75D217F633D00DB5B08 /* RecommendModel.m */; };
+		B008D762217F637C00DB5B08 /* HomeVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B008D760217F637B00DB5B08 /* HomeVideoCell.m */; };
+		B008D76A217F63D800DB5B08 /* RecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B008D768217F63D800DB5B08 /* RecommendViewController.m */; };
+		B008D76B217F63D800DB5B08 /* RecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B008D769217F63D800DB5B08 /* RecommendViewController.xib */; };
+		B008D76D217F650E00DB5B08 /* RecommendData.plist in Resources */ = {isa = PBXBuildFile; fileRef = B008D76C217F650E00DB5B08 /* RecommendData.plist */; };
+		B008D76E217F66CC00DB5B08 /* HomeVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B008D75F217F637B00DB5B08 /* HomeVideoCell.xib */; };
 		B0ED60C8214A8A0600507AEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED60C7214A8A0600507AEC /* AppDelegate.m */; };
 		B0ED60CB214A8A0600507AEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED60CA214A8A0600507AEC /* ViewController.m */; };
 		B0ED60CE214A8A0600507AEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0ED60CC214A8A0600507AEC /* Main.storyboard */; };
@@ -90,6 +96,15 @@
 		B008D7522178B0B800DB5B08 /* XYFlatBrawerHeaderBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYFlatBrawerHeaderBtn.m; sourceTree = "<group>"; };
 		B008D7532178B0B800DB5B08 /* XYFlatBrawerHeaderBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYFlatBrawerHeaderBtn.h; sourceTree = "<group>"; };
 		B008D7592178B73D00DB5B08 /* data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		B008D75C217F633D00DB5B08 /* RecommendModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecommendModel.h; sourceTree = "<group>"; };
+		B008D75D217F633D00DB5B08 /* RecommendModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommendModel.m; sourceTree = "<group>"; };
+		B008D75F217F637B00DB5B08 /* HomeVideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVideoCell.xib; sourceTree = "<group>"; };
+		B008D760217F637B00DB5B08 /* HomeVideoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVideoCell.m; sourceTree = "<group>"; };
+		B008D761217F637B00DB5B08 /* HomeVideoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVideoCell.h; sourceTree = "<group>"; };
+		B008D767217F63D800DB5B08 /* RecommendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecommendViewController.h; sourceTree = "<group>"; };
+		B008D768217F63D800DB5B08 /* RecommendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommendViewController.m; sourceTree = "<group>"; };
+		B008D769217F63D800DB5B08 /* RecommendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendViewController.xib; sourceTree = "<group>"; };
+		B008D76C217F650E00DB5B08 /* RecommendData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RecommendData.plist; sourceTree = "<group>"; };
 		B0ED60C3214A8A0600507AEC /* 高仿马蹄运动.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "高仿马蹄运动.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0ED60C6214A8A0600507AEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0ED60C7214A8A0600507AEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -232,6 +247,46 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		B008D763217F638A00DB5B08 /* 推荐 */ = {
+			isa = PBXGroup;
+			children = (
+				B008D76C217F650E00DB5B08 /* RecommendData.plist */,
+				B008D766217F63BF00DB5B08 /* Controller */,
+				B008D765217F63A700DB5B08 /* View */,
+				B008D764217F639600DB5B08 /* Model */,
+			);
+			path = "推荐";
+			sourceTree = "<group>";
+		};
+		B008D764217F639600DB5B08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B008D75C217F633D00DB5B08 /* RecommendModel.h */,
+				B008D75D217F633D00DB5B08 /* RecommendModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B008D765217F63A700DB5B08 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B008D761217F637B00DB5B08 /* HomeVideoCell.h */,
+				B008D760217F637B00DB5B08 /* HomeVideoCell.m */,
+				B008D75F217F637B00DB5B08 /* HomeVideoCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B008D766217F63BF00DB5B08 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B008D767217F63D800DB5B08 /* RecommendViewController.h */,
+				B008D768217F63D800DB5B08 /* RecommendViewController.m */,
+				B008D769217F63D800DB5B08 /* RecommendViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		B0ED60BA214A8A0600507AEC = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +313,7 @@
 		B0ED60C5214A8A0600507AEC /* 高仿马蹄运动 */ = {
 			isa = PBXGroup;
 			children = (
+				B008D763217F638A00DB5B08 /* 推荐 */,
 				1B13C7092179D08600FF5D8D /* 海外住宅 */,
 				B008D7412178AF5200DB5B08 /* 房源详情 */,
 				B0ED61662152948B00507AEC /* NetWork */,
@@ -438,14 +494,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B008D76E217F66CC00DB5B08 /* HomeVideoCell.xib in Resources */,
 				B008D75B2178BC8700DB5B08 /* XYBrawerBtnView.xib in Resources */,
 				B008D75A2178B73D00DB5B08 /* data.plist in Resources */,
 				1B13C7142179D0D600FF5D8D /* TestCollectionViewCell.xib in Resources */,
 				B0ED60D3214A8A0600507AEC /* LaunchScreen.storyboard in Resources */,
 				B008D7462178AF6900DB5B08 /* HouseDetailViewController.xib in Resources */,
+				B008D76B217F63D800DB5B08 /* RecommendViewController.xib in Resources */,
 				B0ED60D0214A8A0600507AEC /* Assets.xcassets in Resources */,
 				B0ED60CE214A8A0600507AEC /* Main.storyboard in Resources */,
 				B0ED616D2152951400507AEC /* HomeViewController.xib in Resources */,
+				B008D76D217F650E00DB5B08 /* RecommendData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,6 +609,8 @@
 				B008D7562178B40400DB5B08 /* XYBrawerHeaderImageView.m in Sources */,
 				1B13C70C2179D09C00FF5D8D /* AbroadViewController.m in Sources */,
 				B008D7572178B40400DB5B08 /* XYFlatBrawerHeaderBtn.m in Sources */,
+				B008D75E217F633E00DB5B08 /* RecommendModel.m in Sources */,
+				B008D762217F637C00DB5B08 /* HomeVideoCell.m in Sources */,
 				B008D7582178B40400DB5B08 /* XYFlatBrawerHeader.m in Sources */,
 				B0ED617A2156945200507AEC /* ChooseCategoryView.m in Sources */,
 				B0ED61792156945200507AEC /* MoveCell.m in Sources */,
@@ -564,6 +625,7 @@
 				B008D7452178AF6900DB5B08 /* HouseDetailViewController.m in Sources */,
 				B0ED615E2152936A00507AEC /* MyTabBar.m in Sources */,
 				B0ED616C2152951400507AEC /* HomeViewController.m in Sources */,
+				B008D76A217F63D800DB5B08 /* RecommendViewController.m in Sources */,
 				B008D7402178AF1300DB5B08 /* ChooseCategoryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

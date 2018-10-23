@@ -32,6 +32,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSString *str = [[NSBundle mainBundle] pathForResource:@"data" ofType:@"plist"];
+    self.view.backgroundColor = [UIColor whiteColor];
     NSArray *arr  = [NSArray arrayWithContentsOfFile:str];
     NSMutableArray *sectionArr = [NSMutableArray new];
     NSMutableArray *sectionArr1 = [NSMutableArray new];
