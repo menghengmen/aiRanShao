@@ -7,9 +7,9 @@ XYFlatBrawerHeader的协议方法
 ```objc
 @protocol FlatDrawerDelegate<NSObject>;
 @optional
--(NSInteger)numOfSectionsInDrawer:(XYFlatBrawerHeader *)flatBrawerHeader;
--(NSInteger)flatBrawerHeader:(XYFlatBrawerHeader *)flatBrawerHeader numOfIntemsInSection:(NSInteger)sectionIndex;
--(NSArray *)titlesOfFlatBrawer:(XYFlatBrawerHeader *)flatBrawerHeader;
+-(NSInteger)numOfSectionsInDrawer:(XYFlatBrawerHeader *)flatBrawerHeader;///有几块
+-(NSInteger)flatBrawerHeader:(XYFlatBrawerHeader *)flatBrawerHeader numOfIntemsInSection:(NSInteger)sectionIndex;///某一块有几张图片
+-(NSArray *)titlesOfFlatBrawer:(XYFlatBrawerHeader *)flatBrawerHeader;///快的名字
 @required
 -(UIImageView *)flatBrawerHeader:(XYFlatBrawerHeader *)flatBrawerHeader itemForHeaderAtIndex:(NSInteger)index;
 @end
