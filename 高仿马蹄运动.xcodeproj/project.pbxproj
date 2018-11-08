@@ -11,6 +11,7 @@
 		1B13C70F2179D0B100FF5D8D /* XYCollectionBrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B13C70E2179D0B000FF5D8D /* XYCollectionBrawer.m */; };
 		1B13C7132179D0D600FF5D8D /* TestCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B13C7102179D0D500FF5D8D /* TestCollectionViewCell.m */; };
 		1B13C7142179D0D600FF5D8D /* TestCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B13C7112179D0D500FF5D8D /* TestCollectionViewCell.xib */; };
+		1B918C47219456D100E20341 /* MHCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B918C46219456D100E20341 /* MHCommentView.m */; };
 		4D29A22BBC8FAB1F25105C4A /* libPods-高仿马蹄运动UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CA3CDFF2FD3DC6B6E4BDCE /* libPods-高仿马蹄运动UITests.a */; };
 		A6BC9FF469374BA3619CD1CD /* libPods-高仿马蹄运动.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BCB74231BA2B829B2851984 /* libPods-高仿马蹄运动.a */; };
 		B008D7402178AF1300DB5B08 /* ChooseCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B008D73E2178AF1100DB5B08 /* ChooseCategoryViewController.m */; };
@@ -73,6 +74,8 @@
 		1B13C7102179D0D500FF5D8D /* TestCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewCell.m; sourceTree = "<group>"; };
 		1B13C7112179D0D500FF5D8D /* TestCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestCollectionViewCell.xib; sourceTree = "<group>"; };
 		1B13C7122179D0D600FF5D8D /* TestCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewCell.h; sourceTree = "<group>"; };
+		1B918C45219456D100E20341 /* MHCommentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHCommentView.h; sourceTree = "<group>"; };
+		1B918C46219456D100E20341 /* MHCommentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHCommentView.m; sourceTree = "<group>"; };
 		390D947EC74433F3C7C32E2E /* Pods-高仿马蹄运动UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高仿马蹄运动UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-高仿马蹄运动UITests/Pods-高仿马蹄运动UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4119E1E7EE1396648AAE09F9 /* Pods-高仿马蹄运动UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高仿马蹄运动UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-高仿马蹄运动UITests/Pods-高仿马蹄运动UITests.release.xcconfig"; sourceTree = "<group>"; };
 		88CA3CDFF2FD3DC6B6E4BDCE /* libPods-高仿马蹄运动UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-高仿马蹄运动UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,6 +188,29 @@
 				1B13C70B2179D09C00FF5D8D /* AbroadViewController.m */,
 			);
 			path = "海外住宅";
+			sourceTree = "<group>";
+		};
+		1B918C432194567B00E20341 /* 频道选择 */ = {
+			isa = PBXGroup;
+			children = (
+				B0ED61722156944F00507AEC /* ChooseCategoryView.h */,
+				B0ED61762156945100507AEC /* ChooseCategoryView.m */,
+				B0ED61752156945100507AEC /* MoveCell.h */,
+				B0ED61742156945000507AEC /* MoveCell.m */,
+				B008D73D2178AF1100DB5B08 /* ChooseCategoryViewController.h */,
+				B008D73E2178AF1100DB5B08 /* ChooseCategoryViewController.m */,
+				B008D73F2178AF1200DB5B08 /* ChooseCategoryViewController.xib */,
+			);
+			path = "频道选择";
+			sourceTree = "<group>";
+		};
+		1B918C44219456A200E20341 /* 抖音评论界面 */ = {
+			isa = PBXGroup;
+			children = (
+				1B918C45219456D100E20341 /* MHCommentView.h */,
+				1B918C46219456D100E20341 /* MHCommentView.m */,
+			);
+			path = "抖音评论界面";
 			sourceTree = "<group>";
 		};
 		39525E782AD4F79B29923BB9 /* Frameworks */ = {
@@ -361,16 +387,11 @@
 		B0ED615F2152938D00507AEC /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
-				B008D73D2178AF1100DB5B08 /* ChooseCategoryViewController.h */,
-				B008D73E2178AF1100DB5B08 /* ChooseCategoryViewController.m */,
-				B008D73F2178AF1200DB5B08 /* ChooseCategoryViewController.xib */,
+				1B918C44219456A200E20341 /* 抖音评论界面 */,
+				1B918C432194567B00E20341 /* 频道选择 */,
 				B0ED61692152951400507AEC /* HomeViewController.h */,
 				B0ED616A2152951400507AEC /* HomeViewController.m */,
 				B0ED616B2152951400507AEC /* HomeViewController.xib */,
-				B0ED61722156944F00507AEC /* ChooseCategoryView.h */,
-				B0ED61762156945100507AEC /* ChooseCategoryView.m */,
-				B0ED61752156945100507AEC /* MoveCell.h */,
-				B0ED61742156945000507AEC /* MoveCell.m */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -617,6 +638,7 @@
 				B0ED615D2152936A00507AEC /* UIView+AICategory.m in Sources */,
 				1B13C70F2179D0B100FF5D8D /* XYCollectionBrawer.m in Sources */,
 				B0ED615B2152936A00507AEC /* NavigationViewController.m in Sources */,
+				1B918C47219456D100E20341 /* MHCommentView.m in Sources */,
 				B0ED615C2152936A00507AEC /* MainTabBarController.m in Sources */,
 				B0ED60CB214A8A0600507AEC /* ViewController.m in Sources */,
 				B0ED60D6214A8A0600507AEC /* main.m in Sources */,
