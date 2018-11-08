@@ -14,3 +14,4 @@ XYFlatBrawerHeader的协议方法
 -(UIImageView *)flatBrawerHeader:(XYFlatBrawerHeader *)flatBrawerHeader itemForHeaderAtIndex:(NSInteger)index;
 @end
 ```
+欢迎fork,star
