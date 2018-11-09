@@ -29,9 +29,11 @@
 -(UIView*)backGroundView{
     
     if (!_backGroundView) {
-        _backGroundView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREENWIDTH, SCREENHEIGHT)];
+        _backGroundView = [[UIView alloc] initWithFrame:CGRectMake(0, SCREENHEIGHT, SCREENWIDTH, 0)];
         _backGroundView.backgroundColor = [UIColor blackColor];
         _backGroundView.alpha = 0.5;
+        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(dismiss)];
+        [_backGroundView addGestureRecognizer:tap];
     }
     
     return _backGroundView;
@@ -52,15 +54,14 @@
 
 -(UITableView*)tableView{
     if (!_tableView) {
-        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, 400)];
+        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 400, self.frame.size.width, 400)];
         _tableView.delegate =self;
         _tableView.dataSource = self;
         _tableView.rowHeight = UITableViewAutomaticDimension;
         _tableView.tableFooterView = [UIView new];
+        
         [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
     }
-    
-    
     return _tableView;
     
 }
@@ -68,22 +69,32 @@
 
 
 -(void)setUpUi{
+    [self addSubview:self.backGroundView];
     [self addSubview:self.tableView];
-//    [[UIApplication sharedApplication].keyWindow addSubview:self.backGroundView];
 }
 
 -(void)show{
     [UIView animateWithDuration:0.5  animations:^{
-        self.frame = CGRectMake(0, SCREENHEIGHT -400, SCREENWIDTH, 400);
-                    }];
+        self.backGroundView.frame = CGRectMake(0, 0, SCREENWIDTH, SCREENHEIGHT);
+
+        self.frame = CGRectMake(0, 0, SCREENWIDTH, SCREENHEIGHT);
+
+    }];
     
+}
+
+-(void)dismiss{
+    [UIView animateWithDuration:0.5 animations:^{
+        self.backGroundView.frame = CGRectMake(0, SCREENHEIGHT, SCREENWIDTH, 0);
+        
+        self.frame = CGRectMake(0, SCREENHEIGHT, SCREENWIDTH, 0);
+    } completion:^(BOOL finished) {
+        [self removeFromSuperview];
+    }];
 }
 
 
 #pragma  mark UITableViewDataSource
-
-
-
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return self.dataArray.count;
 }

@@ -12,6 +12,8 @@
 		1B13C7132179D0D600FF5D8D /* TestCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B13C7102179D0D500FF5D8D /* TestCollectionViewCell.m */; };
 		1B13C7142179D0D600FF5D8D /* TestCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B13C7112179D0D500FF5D8D /* TestCollectionViewCell.xib */; };
 		1B918C47219456D100E20341 /* MHCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B918C46219456D100E20341 /* MHCommentView.m */; };
+		1B918CBA2195851F00E20341 /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B918CB82195851F00E20341 /* CommentViewController.m */; };
+		1B918CBB2195851F00E20341 /* CommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B918CB92195851F00E20341 /* CommentViewController.xib */; };
 		4D29A22BBC8FAB1F25105C4A /* libPods-高仿马蹄运动UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CA3CDFF2FD3DC6B6E4BDCE /* libPods-高仿马蹄运动UITests.a */; };
 		A6BC9FF469374BA3619CD1CD /* libPods-高仿马蹄运动.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BCB74231BA2B829B2851984 /* libPods-高仿马蹄运动.a */; };
 		B008D7402178AF1300DB5B08 /* ChooseCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B008D73E2178AF1100DB5B08 /* ChooseCategoryViewController.m */; };
@@ -76,6 +78,9 @@
 		1B13C7122179D0D600FF5D8D /* TestCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewCell.h; sourceTree = "<group>"; };
 		1B918C45219456D100E20341 /* MHCommentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHCommentView.h; sourceTree = "<group>"; };
 		1B918C46219456D100E20341 /* MHCommentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHCommentView.m; sourceTree = "<group>"; };
+		1B918CB72195851F00E20341 /* CommentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentViewController.h; sourceTree = "<group>"; };
+		1B918CB82195851F00E20341 /* CommentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
+		1B918CB92195851F00E20341 /* CommentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentViewController.xib; sourceTree = "<group>"; };
 		390D947EC74433F3C7C32E2E /* Pods-高仿马蹄运动UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高仿马蹄运动UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-高仿马蹄运动UITests/Pods-高仿马蹄运动UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4119E1E7EE1396648AAE09F9 /* Pods-高仿马蹄运动UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高仿马蹄运动UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-高仿马蹄运动UITests/Pods-高仿马蹄运动UITests.release.xcconfig"; sourceTree = "<group>"; };
 		88CA3CDFF2FD3DC6B6E4BDCE /* libPods-高仿马蹄运动UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-高仿马蹄运动UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -209,6 +214,9 @@
 			children = (
 				1B918C45219456D100E20341 /* MHCommentView.h */,
 				1B918C46219456D100E20341 /* MHCommentView.m */,
+				1B918CB72195851F00E20341 /* CommentViewController.h */,
+				1B918CB82195851F00E20341 /* CommentViewController.m */,
+				1B918CB92195851F00E20341 /* CommentViewController.xib */,
 			);
 			path = "抖音评论界面";
 			sourceTree = "<group>";
@@ -515,6 +523,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B918CBB2195851F00E20341 /* CommentViewController.xib in Resources */,
 				B008D76E217F66CC00DB5B08 /* HomeVideoCell.xib in Resources */,
 				B008D75B2178BC8700DB5B08 /* XYBrawerBtnView.xib in Resources */,
 				B008D75A2178B73D00DB5B08 /* data.plist in Resources */,
@@ -649,6 +658,7 @@
 				B0ED616C2152951400507AEC /* HomeViewController.m in Sources */,
 				B008D76A217F63D800DB5B08 /* RecommendViewController.m in Sources */,
 				B008D7402178AF1300DB5B08 /* ChooseCategoryViewController.m in Sources */,
+				1B918CBA2195851F00E20341 /* CommentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

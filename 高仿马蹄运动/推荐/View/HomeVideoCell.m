@@ -37,7 +37,7 @@
     [self.videoCoverBtn setImage:[UIImage imageNamed:model.videoCover] forState:UIControlStateNormal];
     [self.videoCoverBtn.imageView setContentMode:UIViewContentModeScaleAspectFill];
 
-    self.viewCountLabel.text = model.viewCount;
+    self.viewCountLabel.text = [NSString stringWithFormat:@"%@次播放",model.viewCount];
     [self.shareBtn setTitle:model.shareTimes forState:UIControlStateNormal];
     [self.commentBtn setTitle:model.videoCommentTimes forState:UIControlStateNormal];
     [self.praiseBtn setTitle:model.totalGoodNums forState:UIControlStateNormal];

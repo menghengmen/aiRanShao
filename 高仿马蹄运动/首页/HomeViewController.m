@@ -9,18 +9,16 @@
 #import "HomeViewController.h"
 #import "ChooseCategoryViewController.h"
 #import "MHCommentView.h"
+#import "CommentViewController.h"
 @interface HomeViewController ()
-{
-    MHCommentView *view;
-}
+
 @end
 
 @implementation HomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    view = [[MHCommentView alloc] initWithFrame:CGRectMake(0, SCREENHEIGHT, SCREENWIDTH, 0)];
-    [self.view addSubview:view];
+   
 
 }
 
@@ -28,9 +26,13 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (IBAction)show:(UIButton *)sender {
-    [view show];
+
+-(IBAction)push:(id)sender{
+    [self.navigationController pushViewController:[CommentViewController new] animated:YES];
+    
 }
+
+
 - (IBAction)chooseChannel:(id)sender {
     [self presentViewController:[ChooseCategoryViewController new] animated:YES completion:nil];
     
